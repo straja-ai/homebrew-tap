@@ -1,7 +1,7 @@
 class Straja < Formula
   desc "Straja Gateway"
   homepage "https://straja.ai"
-  version "0.0.0"
+  version "0.0.3"
 
   if Hardware::CPU.arm?
     url "https://github.com/straja-ai/straja/releases/download/v#{version}/straja_darwin_arm64.tar.gz"

@@ -5,10 +5,10 @@ class Straja < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/straja-ai/straja/releases/download/v#{version}/straja_darwin_arm64.tar.gz"
-    sha256 "REPLACE_WITH_SHA256"
+    sha256 "52a707b66297553144dc6ef53ab1e12d6debcb540878c86a66370d1ba32597c8"
   else
     url "https://github.com/straja-ai/straja/releases/download/v#{version}/straja_darwin_amd64.tar.gz"
-    sha256 "REPLACE_WITH_SHA256"
+    sha256 "52a707b66297553144dc6ef53ab1e12d6debcb540878c86a66370d1ba32597c8"
   end
 
   def install
